@@ -25,7 +25,7 @@ public class Main {
 	
 	private static Connection getConnection() throws SQLException
 	{	
-		String dbURL = System.getenv("JDBC_DATABASE-URL");
+		String dbURL = System.getenv("JDBC_DATABASE_URL");
 		return DriverManager.getConnection(dbURL);	
 	}
 }
